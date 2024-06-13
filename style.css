@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Exo 2', sans-serif;
+    padding: 60px 0 60px 0;
+    width: 100%;
+    text-align: center;
+    
+}
+
+body h1{
+    color: rgb(255, 153, 0);
+    background-color: rgba(255, 228, 196, 0.384);
+    border: 2px solid rgb(255, 238, 0);
+    display: inline-flex;
+    padding: 20px;
+    font-size: 40px;
+    border-radius: 20px;  
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);  
+}
+
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    
+}
+
+.formulario{
+    height: 5px;
+    padding: 50px;
+    
+}
+
+.form{
+    background-color: rgba(255, 228, 196, 0.384);
+    border: 2px solid rgb(255, 238, 0);
+    border-radius: 20px;
+    padding: 15px;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.form .form-consta{
+    border-radius: 50px;
+    position: relative;
+}
+
+.form-consta > i {
+    padding: 14px;
+    color: rgb(255, 153, 0);
+    position: absolute;
+    font-size: 20px;
+    top: 4px;
+    left: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    transition: all ease 300ms;
+}
+
+.form-consta > input{
+    padding: 17px 15px 17px 65px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: transparent;
+    font-size: 16px;
+    outline: none;
+    border-color: rgb(255, 153, 0);
+    color: black;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+::placeholder {
+    color: rgb(29, 1, 1);
+    font-size: 20px;
+}
+
+.btn{
+    background-color: rgb(255, 153, 0);
+    padding: 17px 30px;
+    width: 50%;
+    border: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-size: 15px;
+    transition: all ease 300ms;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.btn:hover{
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transform: scale(110%);
+}
+
+.form-consta > i:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: scale(110%);
+}
